@@ -1,0 +1,23 @@
+place_index,name ,latitude,longitude,neighbors_index,total_weight
+1,Shohada Square Metro station,51.447586,35.690658,2,1.4525
+2,EBN-E SINA,51.456579,35.691005,1,1.4525
+3,Piroozi Metro Station,51.467907,35.691044,2,1.95
+4,Nabard Metro Station,51.477345,35.691791,3,1.3005
+5,Niro Havayi Metro Station,51.488172,35.692922,4,2.196
+6,Shahid Barari Terminal,51.491720,35.693383,5,0.75
+7,Kolahdooz ?Metro Station,51.499704,35.699051,6,0.9
+8,Varzesh Park,51.509807,35.704995,7,1.2
+9,yasini-bagheri, 51.505056,35.712102,7,1.6
+10,Farzanegan4 high school,51.511191,35.711375,8,0.8
+11,3 Rah Tehran Pars,51.522634,35.722197,9| 10,2| 1.7
+12,Shahid Lavasani Hospital,51.601022,35.724112,11,7
+13,Khaghani ,51.502133,35.718300,11| 9,2.5| 0.75
+14,Pol Bus Stop,51.484332,35.712722,13,2.89
+15,Municipality of District ,51.457916,35.704865,14| 17,4.08| 1.7
+16,Imam Hossein,51.448156,35.702102,15| 1,1.17| 1.54
+17,safa bus stop,51.456872,35.696765,2| 16,1.6| 1.2
+18,fajr hospital,51.464683,35.693803,17| 3,1.04| 1.35
+19,patogh park,51.479244,35.701926,4 ,1.725
+20,flakeh aval niro havayi,51.487503,35.697106,5| 19,0.5| 1.2
+21,emamat,51.487127,35.707206,20| 14| 6,1.56| 0.975| 2.72
+22,Kousar theater,51.492664,35.703585,14| 13| 6,1.44| 2.88| 1.952
