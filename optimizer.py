@@ -1,5 +1,4 @@
 import sys
-# print(sys.path)
 import pandas as pd
 from collections import defaultdict 
 import pulp as p
@@ -25,7 +24,7 @@ def load_data():
     return adjacents
 
 
-def tap30(source, dest):
+def find_route(source, dest):
     Lp_prob = p.LpProblem('Problem', p.LpMinimize) 
 
     variables = [[0] * v for l in range(v)]
@@ -64,22 +63,16 @@ def tap30(source, dest):
     return (Lp_prob.solve(), variables)
 
 
-source = int(sys.argv[1]) #int(input("source: "))
-dest = int(sys.argv[2]) #int(input("destination: "))
+# source = int(sys.argv[1]) 
+# dest = int(sys.argv[2]) 
+source = int(input("source: "))
+dest = int(input("destination: "))
 
 map = pd.read_csv('map.csv')
 v = len(map.place_index)
 adjacents = load_data()
 
-result, variables = tap30(source, dest)
-
-# print(variables[12])
-
-# for i in range(v):
-#         for j in range(v):
-#             if type(variables[i][j]) is int:
-#                 continue
-#             print(variables[i][j].name, variables[i][j].varValue)
+result, variables = find_route(source, dest)
 
 
 path = [source]
